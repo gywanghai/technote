@@ -19,7 +19,7 @@ module.exports = (options, ctx) => {
   const { sourceDir, themeConfig, siteConfig } = ctx
 
   // base路径
-  base = siteConfig.base || './'
+  base = siteConfig.base || ''
 
   // 自动设置front matter
   setFrontmatter(sourceDir, themeConfig)
