@@ -15,7 +15,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "Evan's blog",
+      title: "二师兄的技术笔记",
       description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
     }
   },
@@ -163,8 +163,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 博主信息 (显示在首页侧边栏)
     blogger: {
       avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-      name: 'Evan Xu',
-      slogan: '前端界的小学生',
+      name: '二师兄',
+      slogan: 'Java十年老兵',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
