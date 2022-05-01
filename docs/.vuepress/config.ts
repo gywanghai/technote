@@ -11,14 +11,14 @@ import htmlModules from './config/htmlModules' // 自定义插入的html块
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: 'vdoing', // 使用npm主题包
   // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包,
-  base: '/technote/',
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "二师兄的技术笔记",
-      description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
+      title: "二师兄的架构笔记",
+      description: 'Java架构技术博客,专注Java相关技术学习与总结。Java、MySQL、MongoDB、Redis、RocketMQ、Kafka、ZooKeeper、Netty、服务端架构设计、性能优化等技术文章。',
     }
   },
+  base: '/technote/',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
 
   // 主题配置
@@ -156,8 +156,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: 'xugaoyi', // 必需
-      link: 'https://github.com/xugaoyi', // 可选的
+      name: '二师兄', // 必需
+      link: 'https://github.com/gywanghai', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
@@ -174,33 +174,33 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com',
+          link: 'mailto:gywanghai@foxmail.com',
         },
+        // {
+        //   iconClass: 'icon-weixin',
+        //   title: '微信',
+        //   link: '',
+        // },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/xugaoyi',
-        },
-        {
-          iconClass: 'icon-erji',
-          title: '听音乐',
-          link: 'https://music.163.com/#/playlist?id=755597173',
-        },
+          link: 'https://github.com/gywanghai',
+        }
       ],
     },
 
     // 页脚信息
     footer: {
-      createYear: 2019, // 博客创建年份
+      createYear: 2022, // 博客创建年份
       copyrightInfo:
-        'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
+        'gywanghai(二师兄) | <a href="https://github.com/gywanghai/technote/blob/main/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     extendFrontmatter: {
       author: {
-        name: 'xugaoyi',
-        link: 'https://github.com/xugaoyi'
+        name: '二师兄',
+        link: 'https://github.com/gywanghai'
       }
     },
 
@@ -215,7 +215,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'meta',
       {
         name: 'keywords',
-        content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
+        content: 'Java架构技术博客,专注Java相关技术学习与总结。Java、MySQL、MongoDB、Redis、RocketMQ、Kafka、ZooKeeper、Netty、服务端架构设计、性能优化等技术文章。',
       },
     ],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
