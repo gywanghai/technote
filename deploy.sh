@@ -19,7 +19,7 @@ else
   msg='来自github actions的自动部署'
   githubUrl=https://gywanghai:${GITHUB_TOKEN}@github.com/gywanghai/technote.git
   git config --global user.name "gywanghai"
-  git config --global user.email "gywanghai@foxmail.com"
+  git config --global user.email "gy_wanghai@foxmail.com"
 fi
 git init
 git add -A

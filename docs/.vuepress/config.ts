@@ -238,7 +238,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:gywanghai@foxmail.com',
+          link: 'mailto:gy_wanghai@foxmail.com',
         },
         // {
         //   iconClass: 'icon-weixin',
